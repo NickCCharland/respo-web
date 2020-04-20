@@ -2,3 +2,73 @@
 /* Add your custom CSS declarations below  */
 
 
+.navbar-brand {
+	background-image: url("../images/PNW-travel-logo.svg");
+	width: 400px;
+	height: 150px;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../images/seattle-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro {
+	font-family: 'Poppins','sans serif';
+	font-weight: 800;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.subset {
+	font-family: 'Poppins','sans serif';
+	font-weight: 400;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+.fa-tree {
+	display: flex;
+	justify-content: space-around;
+    font-size: 40px;
+}
+
+section {
+	padding: 0 200px 100px 200px;
+}
+
+p {
+	padding-top: 50px;
+}
+
+footer { 
+  padding: 0 20px;
+  height: 200px;
+  background-color: rgba(41,47,54,1);
+  background-image: url("../images/PNW-travel-logo.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  text-align: center;
+  background-position: top center;
+}
+
+
+
+
+
+
+
+
+
