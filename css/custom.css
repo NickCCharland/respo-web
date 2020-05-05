@@ -61,6 +61,15 @@
   height: 100vh;
 }
 
+.fourthjumbo {
+  /*color: white;*/
+  background-image: url("../images/spokane.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .carousel {
 	/*height: 300px;*/
 }
