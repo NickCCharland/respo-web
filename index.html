@@ -24,24 +24,24 @@
 <body>
 
 	<!-- INSERT HTML PAGE CONTENT HERE -->
-	<nav class="navbar navbar-inverse navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-md navbar-light navbar-custom bg-light">
 		<a class="navbar-brand js-scroll-trigger" href="#"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Dropdown link
+						Hikes
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
+						<a class="dropdown-item" href="#">Rattlesnake Ledge</a>
+						<a class="dropdown-item" href="#">Middle Fork Snoqualmie River</a>
+						<a class="dropdown-item" href="#">Wallace Falls State Park</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -51,6 +51,7 @@
 		</div>
 	</nav>
 
+	<!-- Header Section -->
 	<header>
 		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
@@ -59,14 +60,69 @@
 		</div>
 	</header>
 
-
+	<!-- Intro Section -->
 	<section class="pt-3 pb-3 pl-5 pr-5">
 		<div class="container container-fluid">
-			<h2 class="subset display-4 p-5">So, You've Decided to Travel to the PNW? You're in for a Treat.</h2>
-			<p class="pl-5 pr-5 pb-4 m-3">Throughout this breathtaking region, there is no shortage of activities that are suited for all ages. From hiking and camping, to the wonderful restaurants and breweries, we guarantee that once you visit you won't want to leave. Come see for yourself. <br></p>
-			<p class="pl-5 pr-5 pb-4 m-3">Check out the rest of the site for places to go, things to see, and experiences to have.</p>
+			<div class="display-3 d-flex justify-content-center">
+				<i class="fas fa-tree"></i>
+			</div>
+			<h2 class="subset display-4 p-md-5">So, You've Decided to Travel to the PNW? You're in for a Treat.</h2>
+			<p class="pl-md-5 pr-md-5 pb-md-4 m-3">Throughout this breathtaking region, there is no shortage of activities that are suited for all ages. From hiking and camping, to the wonderful restaurants and breweries, we guarantee that once you visit you won't want to leave. Come see for yourself. <br></p>
+			<p class="pl-md-5 pr-md-5 pb-md-4 m-3">Check out the rest of the site for places to go, things to see, and experiences to have.</p>
 		</div>
 	</section>
+
+	<!-- Card Section -->
+	<h2 class="subset mt-5 mb-4">Our Site at a Glance</h2>
+	<div class="container">
+		<div class="row">
+			<div class="card-deck p-sm-2">
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+						<img src="images/rattlesnake_ledge_1.jpg" class="card-img-top img-fluid" alt="...">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Rattlesnake Ledge</h5>
+							<p class="card-text">Rattlesnake Ledge is located within a convenient driving distance from downtown Seattle and many other major metro areas around the area. It’s a popular recreational area which gets very busy on weekends.</p>
+							<a href="#" class="btn btn-primary mt-auto">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+						<img src="images/middle_fork_1.jpg" class="card-img-top img-fluid" alt="Seattle Skyline">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Middle Fork Snoqualmie River</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<a href="#" class="btn btn-primary mt-auto">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+						<img src="images/wallace_falls.jpg" class="card-img-top" alt="...">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Wallace Falls State Park</h5>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+							<a href="#" class="btn btn-primary mt-auto">Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+						<img src="images/spokane.jpg" class="card-img-top" alt="...">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Spokane</h5>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+							<a href="#" class="btn btn-primary mt-auto">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 
 	<footer class="footer">
 		<p class="copyright">Pacific Northwest Travel Guide&copy;</p>

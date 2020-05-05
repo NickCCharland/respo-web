@@ -4,19 +4,39 @@
 
 .navbar-brand {
 	background-image: url("../images/PNW-travel-logo.svg");
-	width: 400px;
+	width: 200px;
 	height: 100px;
 	background-repeat: no-repeat;
 }
 
 .navbar {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding: 25px 125px;
+}
+
+.btn:link {
+	box-shadow: none;
+	outline: none;
+	background-color: #275439;
+}
+
+.btn:visited {
+	box-shadow: none;
+	background-color: #275439;
+}
+
+.btn:hover {
+	background-color: #172616;
+}
+
+.btn:focus , .btn:active {
+	box-shadow: none;
+	outline: none;
+	background-color: #275439;
 }
 
 .jumbotron {
-  color: white;
-  background-image: url("../images/seattle-header.jpg");
+  /*color: white;*/
+  background-image: url("../images/main_header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,6 +48,7 @@
 	font-weight: 800;
 	padding-top: 200px;
 	text-align: center;
+	color: #333;
 }
 
 .subset {
@@ -38,16 +59,22 @@
 
 }
 
+
+
 .fa-tree {
 	display: flex;
 	justify-content: space-around;
     font-size: 40px;
 }
 
+.card {
+	height: 100%;
+}
+
 footer { 
   padding: 0 20px;
   height: 300px;
-  background-color: rgba(41,47,54,1);
+  background-color: #333;
   background-image: url("../images/PNW-travel-logo-white.svg");
   background-repeat: no-repeat;
   background-size: 150px;
@@ -56,7 +83,7 @@ footer {
 }
 
 .copyright {
-	color: white;
+	color: #f5f2d0;
 	padding-top: 215px;
 }
 
