@@ -43,6 +43,24 @@
   height: 100vh;
 }
 
+.otherjumbo {
+  /*color: white;*/
+  background-image: url("../images/middle_fork_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.thirdjumbo {
+  /*color: white;*/
+  background-image: url("../images/wallace_falls.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .carousel {
 	/*height: 300px;*/
 }
@@ -59,12 +77,32 @@
   max-height: 800px !important;
 }
 
+.rounded {
+	max-width: 500px;
+}
+
 .intro {
 	font-family: 'Poppins','sans serif';
 	font-weight: 800;
 	padding-top: 200px;
 	text-align: center;
 	color: #333;
+}
+
+.otherintro {
+	font-family: 'Poppins','sans serif';
+	font-weight: 800;
+	padding-top: 200px;
+	text-align: center;
+	color: #fff;
+}
+
+.thirdintro {
+	font-family: 'Poppins','sans serif';
+	font-weight: 800;
+	padding-top: 200px;
+	text-align: center;
+	color: #777;
 }
 
 .subset {
