@@ -87,9 +87,6 @@
   max-height: 800px !important;
 }
 
-.rounded {
-	max-width: 500px;
-}
 
 .intro {
 	font-family: 'Poppins','sans serif';
@@ -144,6 +141,11 @@ footer {
   background-size: 150px;
   text-align: center;
   background-position: center;
+}
+
+.privacy a {
+	color: #e5cb90;
+	text-decoration: none;
 }
 
 .copyright {
