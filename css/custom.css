@@ -75,7 +75,7 @@
 }
 
 .carousel-item {
-  transition-duration: 2s;
+  transition-duration: 1s;
   background-position: bottom;
 }
 .sliding {
